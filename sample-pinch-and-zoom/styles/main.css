@@ -1,26 +1,18 @@
 body
 {
-    font: Arial, sans-serif;
+	font: Arial, sans-serif;
 }
 
-.buttonArea,
-.footerText,
-#geoLocationContainer,
-#helloWorldInput,
-#helloWorldText
+#zoomable-explanation
 {
-    text-align: center;
-}
-
-#txtName
-{
-    border: 1px solid #AAA;
-    border-radius: 15px;
-    position:static;
-    margin-left: 1em;
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
-    background:white;
-    color: black;
-    padding: 7px;
+	position: absolute;
+	width: 200px;
+	top: 50px;
+	left: 50px;
+	padding: 20px;
+	background: black;
+	color: white;
+	border: 2px solid white;
+	-webkit-border-radius: 10px;
+	-webkit-opacity: 0.5;
 }

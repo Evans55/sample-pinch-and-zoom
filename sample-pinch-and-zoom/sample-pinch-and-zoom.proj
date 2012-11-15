@@ -28,6 +28,9 @@
     <Folder Include="App_Resources\Android\drawable-ldpi">
       <Platform>Android</Platform>
     </Folder>
+    <Folder Include="kendo\styles\images" />
+    <Folder Include="images" />
+    <Folder Include="scripts" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="App_Resources\iOS\icon.png" />
@@ -51,15 +54,14 @@
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\ice.png" />
     <Content Include="index.html" />
     <Content Include="kendo\js\jquery.min.js" />
     <Content Include="kendo\js\kendo.mobile.min.js" />
-    <Content Include="kendo\styles\images\ios-sprite.png" />
-    <Content Include="kendo\styles\images\icons.png" />
-    <Content Include="kendo\styles\images\iconmasks.svg" />
-    <Content Include="kendo\styles\images\android-sprite.png" />
+    <Content Include="kendo\styles\images\back.png" />
+    <Content Include="kendo\styles\images\KendoUI.ttf" />
+    <Content Include="kendo\styles\images\KendoUI.woff" />
     <Content Include="kendo\styles\kendo.mobile.all.min.css" />
-    <Content Include="scripts\hello-world.js" />
     <Content Include="styles\main.css" />
     <Content Include="cordova.ios.js">
       <Platform>iOS</Platform>
