@@ -30,6 +30,10 @@
 		<script src="kendo/js/kendo.mobile.min.js"></script>
 
 		<script>
+            document.addEventListener('deviceready', this.onDeviceReady, false);
+            function onDeviceReady() {
+                navigator.splashscreen.hide();
+            }
 			var app = new kendo.mobile.Application(document.body);
 		</script>
 	</body>
