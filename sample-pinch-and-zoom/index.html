@@ -6,10 +6,13 @@
 		<link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet" />
 		<link href="styles/main.css" rel="stylesheet" />
 
+		<script src="cordova.js"></script>
+		<script src="kendo/js/jquery.min.js"></script>
+		<script src="kendo/js/kendo.mobile.min.js"></script>
 	</head>
 	<body>
 		<div data-role="view" data-title="Photo viewer" data-zoom="true">
-            
+
 			<header data-role="header">
 				<div data-role="navbar">
 					<span data-role="view-title"></span>
@@ -25,15 +28,11 @@
 			</div>
 		</div>
 
-		<script src="cordova.js"></script>
-		<script src="kendo/js/jquery.min.js"></script>
-		<script src="kendo/js/kendo.mobile.min.js"></script>
-
 		<script>
-            document.addEventListener('deviceready', this.onDeviceReady, false);
-            function onDeviceReady() {
-                navigator.splashscreen.hide();
-            }
+			document.addEventListener('deviceready', this.onDeviceReady, false);
+			function onDeviceReady() {
+				navigator.splashscreen.hide();
+			}
 			var app = new kendo.mobile.Application(document.body);
 		</script>
 	</body>
