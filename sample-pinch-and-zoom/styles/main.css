@@ -1,18 +1,15 @@
-body
-{
+body {
 	font: Arial, sans-serif;
 }
 
-#zoomable-explanation
-{
-	position: absolute;
-	width: 200px;
-	top: 50px;
-	left: 50px;
-	padding: 20px;
-	background: black;
-	color: white;
-	border: 2px solid white;
-	-webkit-border-radius: 10px;
-	-webkit-opacity: 0.5;
+#zoomable-explanation {
+    position: absolute;
+    padding: 5px;
+	margin: 2em;
+    background: black;
+    color: white;
+    border: 2px solid white;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-opacity: 0.3;
 }
