@@ -52,5 +52,6 @@
     "ID_RESOLUTION_HD720P"
   ],
   "Author": "",
-  "Description": "sample-pinch-and-zoom"
+  "Description": "sample-pinch-and-zoom",
+  "Framework": "Cordova"
 }
