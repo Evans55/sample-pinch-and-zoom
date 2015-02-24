@@ -51,7 +51,5 @@
 	"Author": "",
 	"Description": "sample-pinch-and-zoom",
 	"Framework": "Cordova",
-	"projectVersion": 1,
-	"WP8PublisherID": "{1fd49577-d5f5-4ceb-a5fc-a1d4de43f1ef}",
-	"WP8ProductID": "{a96aa5dd-5462-4126-bd07-2a2e5ada664c}"
+	"projectVersion": 1
 }
